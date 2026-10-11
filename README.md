@@ -1,5 +1,10 @@
 # ⚡ Renewable Energy Orchestrator
 
+## Live Demo
+
+- **Web App:** https://renewable-energy-orchestrator.streamlit.app
+- **Demo Video:** https://drive.google.com/file/d/1UHWBCifoITIeU2mOyPZjpbem0HnfVcUF/view?usp=drive_link
+
 A bounded-autonomy renewable energy dispatch prototype for the **ET AI Hackathon — Agentic Edition**.
 
 The system monitors changing operating conditions every 15 minutes, selects an appropriate optimization strategy, solves the numerical dispatch problem, validates the proposed action, executes only the next interval, updates battery state, and explains the decision.
