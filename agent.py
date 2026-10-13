@@ -335,13 +335,13 @@ and power exported to the grid.
                 "content": prompt
             }
         ],
-        format="json",
+        # format="json",
         options={
             "temperature": 0
         }
     )
 
-    return response.message.content
+    return response.message.content.strip()
 
 def plan_with_llm(
     state,

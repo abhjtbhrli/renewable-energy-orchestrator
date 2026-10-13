@@ -485,7 +485,11 @@ if (
     # --------------------------------------------------
 
     st.subheader("Agent Explanation")
-
+    print(
+        "DEBUG EXPLANATION:",
+        repr(first_event["explanation"]),
+        type(first_event["explanation"])
+    )
     st.info(
         first_event["explanation"]
     )
